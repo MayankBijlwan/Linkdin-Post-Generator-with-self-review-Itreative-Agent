@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # tools
-search_tool = TavilySearch(max_results=3)
+search_tool = TavilySearch(max_results=5)
 tools = [search_tool]
 
 # writer
